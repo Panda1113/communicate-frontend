@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="title">
+        <input [(ngModel)]="newItem.title" type="text" placeholder="Caption...">
+    </div>
+    <div class="content">
+        <textarea [(ngModel)]="newItem.description" name="description"  id="description" cols="30" rows="10" placeholder="Some text..."></textarea>
+    </div>
+    <div class="action">
+        <button mat-raised-button color="primary" (click)="handleClickAddNewItems()">SAVE</button>
+    </div>
+</div>

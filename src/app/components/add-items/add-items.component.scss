@@ -1,0 +1,28 @@
+.container{
+    padding: 20px;
+}
+.container .title, .container .content {
+    margin-bottom: 20px;
+}
+
+.container .title input {
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 20px;
+    
+}
+
+.container .title input:focus, .container .content textarea:focus{
+    outline: 2px solid rgb(26,115,232);
+}
+
+.container .content textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    outline: none;
+}

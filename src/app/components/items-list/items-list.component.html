@@ -1,0 +1,7 @@
+<div class="container">
+    <ul class="items-list">
+        @for (item of itemData; track $index) {
+            <li class="item" (click)="clickItem(item._id)">{{item.title}}</li>
+        }
+    </ul>
+</div>
